@@ -43,7 +43,7 @@ const Benefits = () => {
             Why Choose Communicycle?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Professional ITAD services designed specifically for residential customers
+            Free Professional Electronic resale services and recycling designed specifically for residential customers
           </p>
         </div>
         

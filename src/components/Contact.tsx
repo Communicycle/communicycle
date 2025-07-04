@@ -49,7 +49,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Visit Us</h3>
-                  <p className="text-white/80">Serving all of Canada</p>
+                  <p className="text-white/80">Oakville, ON</p>
                 </div>
               </div>
             </Card>
@@ -61,8 +61,8 @@ const Contact = () => {
               Get Your Free Quote Today
             </h3>
             <p className="text-white/90 mb-8 text-lg leading-relaxed">
-              Simply describe your devices and we'll provide an estimate. 
-              No obligation, no hidden fees.
+              We accept TVs, laptops, desktops, phones and more for resale or recycling. 
+              Get your free quote today - no obligation, no hidden fees.
             </p>
             <div className="space-y-4">
               <Button variant="hero" size="lg" className="w-full sm:w-auto bg-white text-primary hover:bg-white/90">

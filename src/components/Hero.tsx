@@ -27,8 +27,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-            Professional ITAD services for residential customers. We securely handle your laptops, 
-            phones, and electronics, ensuring data protection while maximizing resale value.
+            Free Professional Electronic resale services for residential customers. We handle TVs, laptops, 
+            desktops, phones and more, plus electronics recycling for electronic scrap with secure data protection.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

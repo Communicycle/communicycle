@@ -5,15 +5,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">C</span>
-              </div>
-              <span className="text-xl font-bold">Communicycle</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="/lovable-uploads/e4dde3cd-08bc-449a-86a5-d10d67f20ff3.png" 
+                alt="Communicycle Logo" 
+                className="h-8 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-background/80 mb-4 max-w-md">
-              Professional ITAD services helping residential customers turn their old electronics 
-              into cash while protecting their data and the environment.
+              Free Professional Electronic resale services and recycling helping residential customers turn their 
+              TVs, laptops, desktops, phones and more into cash while protecting their data and the environment.
             </p>
             <p className="text-background/60 text-sm">
               © 2024 Communicycle. All rights reserved.
@@ -24,11 +25,11 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-background/80 text-sm">
+              <li>TV Resale</li>
               <li>Laptop Resale</li>
-              <li>Phone & Tablet</li>
               <li>Desktop Computers</li>
-              <li>Data Wiping</li>
-              <li>ITAD Consulting</li>
+              <li>Phone & Tablet</li>
+              <li>Electronics Recycling</li>
             </ul>
           </div>
           
@@ -47,7 +48,7 @@ const Footer = () => {
         
         <div className="border-t border-background/20 mt-8 pt-8 text-center">
           <p className="text-background/60 text-sm">
-            Certified ITAD service provider • Secure data destruction • Environmentally responsible
+            Free Professional Electronic services • Secure data destruction • Electronics recycling • Environmentally responsible
           </p>
         </div>
       </div>

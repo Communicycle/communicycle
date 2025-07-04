@@ -5,11 +5,12 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">C</span>
-            </div>
-            <span className="text-xl font-bold text-foreground">Communicycle</span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/e4dde3cd-08bc-449a-86a5-d10d67f20ff3.png" 
+              alt="Communicycle Logo" 
+              className="h-10 w-auto"
+            />
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">

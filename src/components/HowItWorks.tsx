@@ -5,12 +5,12 @@ const steps = [
   {
     icon: Package,
     title: "1. Send Your Devices",
-    description: "Pack your laptops, phones, tablets, and other electronics securely and ship them to us using our prepaid shipping label."
+    description: "Pack your TVs, laptops, desktops, phones, tablets, and other electronics securely and ship them to us using our prepaid shipping label."
   },
   {
     icon: Search,
-    title: "2. Evaluation & Data Wipe",
-    description: "Our experts assess your devices for resale value and perform secure, certified data wiping to protect your privacy."
+    title: "2. Evaluation & Processing",
+    description: "Our experts assess your devices for resale value, perform secure data wiping, or process items for electronics recycling."
   },
   {
     icon: DollarSign,
