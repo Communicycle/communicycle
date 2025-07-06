@@ -5,7 +5,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <img alt="Communicycle Logo" className="h-8 w-auto brightness-0 invert" src="/lovable-uploads/ebe261c3-e6f1-45e4-86d3-a5e3c22a8257.png" />
+              <img alt="Communicycle Logo" src="/lovable-uploads/c633a871-beba-477d-8a36-0b2a6450dc46.png" className="max-h-8 w-auto brightness-0 invert-0 " />
             </div>
             <p className="text-background/80 mb-4 max-w-md">
               Free Professional Electronic resale services and recycling helping residential customers turn their 
