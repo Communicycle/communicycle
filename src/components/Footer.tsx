@@ -23,7 +23,7 @@ const Footer = () => {
               <li>TV Resale</li>
               <li>Laptop Resale</li>
               <li>Desktop Computers</li>
-              <li>Phone & Tablet</li>
+              <li>Phone & Tablet Resale</li>
               <li>Electronics Recycling</li>
             </ul>
           </div>
