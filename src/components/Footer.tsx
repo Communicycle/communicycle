@@ -22,7 +22,7 @@ const Footer = () => {
             <ul className="space-y-2 text-background/80 text-sm">
               <li>TV Resale</li>
               <li>Laptop Resale</li>
-              <li>Desktop Computers</li>
+              <li>Desktop Computers Resale</li>
               <li>Phone & Tablet Resale</li>
               <li>Electronics Recycling</li>
             </ul>
