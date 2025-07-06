@@ -15,7 +15,7 @@ const benefits = [{
 }, {
   icon: Clock,
   title: "Quick Process",
-  description: "Fast turnaround from device receipt to payment, typically within 5-7 business days."
+  description: "Fast turnaround from device receipt to cash."
 }, {
   icon: Award,
   title: "Certified Service",
