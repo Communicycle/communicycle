@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
-
 const Contact = () => {
-  return (
-    <section id="contact" className="py-20 bg-gradient-hero">
+  return <section id="contact" className="py-20 bg-gradient-hero">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -37,7 +35,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Call Us</h3>
-                  <p className="text-white/80">1-800-COMM-CYCLE</p>
+                  <p className="text-white/80">1-365-777-3058</p>
                 </div>
               </div>
             </Card>
@@ -76,8 +74,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
