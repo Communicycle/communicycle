@@ -25,7 +25,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg">Email Us</h3>
-                  <p className="text-white/80">info@communicycle.ca</p>
+                  <p className="text-white/80">laith@communicycle.ca</p>
                 </div>
               </div>
             </Card>
