@@ -63,7 +63,7 @@ const Contact = () => {
             <div className="space-y-4">
               <Button asChild variant="hero" size="lg" className="w-full sm:w-auto bg-white text-primary hover:bg-white/90 text-base text-center">
                 <a href="https://tally.so/r/w40aVO" target="_blank" rel="noopener noreferrer">
-                  Request Quote
+                  Get Started
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
               </Button>
