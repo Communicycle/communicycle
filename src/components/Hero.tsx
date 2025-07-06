@@ -1,20 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Recycle, Shield, DollarSign } from "lucide-react";
 import heroImage from "@/assets/hero-electronics.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with gradient overlay */}
       <div className="absolute inset-0 bg-gradient-hero opacity-95"></div>
-      <div 
-        className="absolute inset-0 opacity-20"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      ></div>
+      <div className="absolute inset-0 opacity-20" style={{
+      backgroundImage: `url(${heroImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
+    }}></div>
       
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -26,10 +21,7 @@ const Hero = () => {
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-            Free Professional Electronic resale services for residential customers. We handle TVs, laptops, 
-            desktops, phones and more, plus electronics recycling for electronic scrap with secure data protection.
-          </p>
+          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">Free Professional Electronic resale services for businesses and residential customers. We handle TVs, laptops, desktops, phones and more, plus electronics recycling for electronic scrap with secure data protection.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button variant="hero" size="lg" className="text-lg px-8 py-4">
@@ -65,8 +57,6 @@ const Hero = () => {
           <div className="w-1 h-3 bg-white/60 rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
