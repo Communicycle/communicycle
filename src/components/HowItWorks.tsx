@@ -5,7 +5,7 @@ const steps = [
   {
     icon: Package,
     title: "1. Send Your Devices",
-    description: "Pack your TVs, laptops, desktops, phones, tablets, and other electronics securely and ship them to us using our prepaid shipping label."
+    description: "Pack your TVs, laptops, desktops, phones, tablets, and other electronics securely and ship them to us using our prepaid shipping label, or request scheduled/bulk pickup directly and we will come to you for free."
   },
   {
     icon: Search,
