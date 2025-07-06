@@ -61,9 +61,11 @@ const Contact = () => {
               Get your free quote today - no obligation, no hidden fees.
             </p>
             <div className="space-y-4">
-              <Button variant="hero" size="lg" className="w-full sm:w-auto bg-white text-primary hover:bg-white/90 text-base text-center">
-                Request Quote
-                <ArrowRight className="ml-2 h-5 w-5" />
+              <Button asChild variant="hero" size="lg" className="w-full sm:w-auto bg-white text-primary hover:bg-white/90 text-base text-center">
+                <a href="https://tally.so/r/w40aVO" target="_blank" rel="noopener noreferrer">
+                  Request Quote
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
               </Button>
               <p className="text-white/70 text-sm">
                 Typically responds within 2 hours
