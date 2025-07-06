@@ -55,15 +55,13 @@ const Contact = () => {
           
           {/* CTA */}
           <div className="text-center lg:text-left">
-            <h3 className="text-2xl font-bold text-white mb-6">
-              Get Your Free Quote Today
-            </h3>
+            <h3 className="text-2xl font-bold text-white mb-6">Get Started Today</h3>
             <p className="text-white/90 mb-8 text-lg leading-relaxed">
               We accept TVs, laptops, desktops, phones and more for resale or recycling. 
               Get your free quote today - no obligation, no hidden fees.
             </p>
             <div className="space-y-4">
-              <Button variant="hero" size="lg" className="w-full sm:w-auto bg-white text-primary hover:bg-white/90">
+              <Button variant="hero" size="lg" className="w-full sm:w-auto bg-white text-primary hover:bg-white/90 text-base text-center">
                 Request Quote
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>

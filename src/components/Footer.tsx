@@ -1,16 +1,11 @@
 const Footer = () => {
-  return (
-    <footer className="bg-foreground text-background py-12">
+  return <footer className="bg-foreground text-background py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <img 
-                src="/lovable-uploads/e4dde3cd-08bc-449a-86a5-d10d67f20ff3.png" 
-                alt="Communicycle Logo" 
-                className="h-8 w-auto brightness-0 invert"
-              />
+              <img alt="Communicycle Logo" className="h-8 w-auto brightness-0 invert" src="/lovable-uploads/ebe261c3-e6f1-45e4-86d3-a5e3c22a8257.png" />
             </div>
             <p className="text-background/80 mb-4 max-w-md">
               Free Professional Electronic resale services and recycling helping residential customers turn their 
@@ -52,8 +47,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
