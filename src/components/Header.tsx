@@ -25,8 +25,10 @@ const Header = () => {
             </a>
           </nav>
           
-          <Button variant="hero" size="lg">
-            Get Started
+          <Button asChild variant="hero" size="lg">
+            <a href="https://tally.so/r/w40aVO" target="_blank" rel="noopener noreferrer">
+              Get Started
+            </a>
           </Button>
         </div>
       </div>
