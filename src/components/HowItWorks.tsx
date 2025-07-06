@@ -15,7 +15,7 @@ const steps = [
   {
     icon: DollarSign,
     title: "3. Get Paid",
-    description: "Receive payment based on current market value. We handle the resale process while you get the cash."
+    description: "Receive payment based on current market value after the sale. We handle the resale process while you get the cash."
   }
 ];
 
